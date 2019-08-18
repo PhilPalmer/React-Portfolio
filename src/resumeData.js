@@ -4,7 +4,8 @@ let resumeData = {
     "role": "Bioinformatician",
     "linkedinId":"phil-palmer",
     "skypeid": "phil_palmer_",
-    "roleDescription": "I am a bioinformatician who wants to use my career to do as much good as possible. I think I can do this by leveraging technologies such as bioinformatics & data science to help prevent disease.",
+    "roleDescription": "I am a bioinformatician who wants to use my career to do as much good as possible.",
+    "roleDescription2": "I think I can do this by leveraging technologies in areas such as bioinformatics & data science to help prevent disease.",
     "socialLinks":[
         {
           "name":"linkedin",
