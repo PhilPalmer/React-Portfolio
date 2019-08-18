@@ -5,7 +5,7 @@ let resumeData = {
     "linkedinId":"phil-palmer",
     "skypeid": "phil_palmer_",
     "roleDescription": "I am a bioinformatician who wants to use my career to do as much good as possible.",
-    "roleDescription2": "I think I can do this by leveraging technologies in areas such as bioinformatics & data science to help prevent disease.",
+    "roleDescription2": "I think I can do this by leveraging technology in areas such as bioinformatics & data science to help prevent disease.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -79,7 +79,8 @@ let resumeData = {
       {
         "name":"nf-core/deepvariant",
         "description":"Google's DeepVariant variant caller as a Nextflow pipeline",
-        "imgurl":"https://raw.githubusercontent.com/nf-core/deepvariant/master/docs/images/deepvariant_logo.png"
+        "imgurl":"https://raw.githubusercontent.com/nf-core/deepvariant/master/docs/images/deepvariant_logo.png",
+        "link":"https://github.com/nf-core/deepvariant"
       },
       {
         "name":"Jackson Labs Workshop",
@@ -95,6 +96,26 @@ let resumeData = {
         "name":"Pharmacogenomics pipeline",
         "description":"Pharmacogenomics Nextflow pipeline for the BHKLAB to process the GRAY 2017 dataset",
         "imgurl":"https://avatars3.githubusercontent.com/u/12865570?s=280&v=4"
+      },
+      {
+        "name":"Long reads variant calling pipeline",
+        "description":"Nextflow pipeline for mapping, calling germline & structural variance of Oxford Nanopore reads",
+        "imgurl":"images/portfolio/ont.png"
+      },
+      {
+        "name":"ECW Converter",
+        "description":"Dockerised python scripts & Nextflow pipeline for converting the file format of aerial images, developed for the United Nations Department of Statistics",
+        "imgurl":"https://opendatawatch.com/wp-content/uploads/2018/09/UNstats-logo.png"
+      },
+      {
+        "name":"Illumina's Dragen pipeline",
+        "description":"Nextflow pipeline for running Illumina's Dragen pipeline including indexing, mapping, germline/somatic variant calling & CNV analysis",
+        "imgurl":"https://d7umqicpi7263.cloudfront.net/img/product/a66b9373-89f0-4e38-94c2-c5f498b07cdc/a44af422-3ea8-450d-b420-a3093981f514.png"
+      },
+      {
+        "name":"Thesis",
+        "description":"Differences in Telomere Length Predicted from the Exome Data of Bladder Cancer and Matched Control Tissue Samples",
+        "imgurl":"images/portfolio/igv.png"
       }
     ]
   }

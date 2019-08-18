@@ -239,7 +239,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -413,8 +413,11 @@ ul#nav li.current a { color: #F06000; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
+#projects {
+   max-width: 1800px;
+}
 #portfolio {
-   background: #ebeeee;
+   background: #fff;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -426,13 +429,31 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
    color: #95A3A3;
 }
+#portfolio p {
+   font-size: 1.5rem;
+}
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
+.item-img {
+   width:400px;
+   height:250px;
+
+/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit:scale-down;
+   /* position: relative;
+   float: left;
+   width:  200px;
+   height: 100px;
+   background-position: 50% 50%;
+   background-repeat:   no-repeat;
+   background-size:     cover; */
+}
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
+   display: inline-block;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -441,7 +462,7 @@ ul#nav li.current a { color: #F06000; }
 	transition: all 0.3s ease-in-out;
 }
 .portfolio-item .item-wrap a {
-   display: block;
+   display: inline-block;
    cursor: pointer;
 }
 
