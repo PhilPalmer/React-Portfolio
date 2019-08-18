@@ -95,16 +95,6 @@ let resumeData = {
         "description":"Pharmacogenomics Nextflow pipeline for the BHKLAB to process the GRAY 2017 dataset",
         "imgurl":"https://avatars3.githubusercontent.com/u/12865570?s=280&v=4"
       }
-    ],
-    "testimonials":[
-      {
-        "description":"",
-        "name":""
-      },
-      {
-        "description":"",
-        "name":""
-      }
     ]
   }
   
