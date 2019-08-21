@@ -60,21 +60,44 @@ let resumeData = {
         "Achievements":"Developing, maintaining & documenting bioinformatics pipelines on the Deploit platform. Have developed Docker & Nextflow pipelines on everything from variant calling to long reads to transcriptomics. For example, adapted a pipeline based on Google’s DeepVariant pipeline to meet the requirements of the open-source community nf-core. Also, regularly interact with clients & have been instrumental in the delivery of numerous key projects."
       }
     ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"Bioinformatics"
-      },
-      {
-        "skillname":"Python"
-      },
-      {
-        "skillname":"R"
-      },
-      {
-        "skillname":"Bash"
-      }
-    ],
+    "skillsDescription":"Some of my skills include:",
+    "skills":[{
+      label: "Docker",
+      value: "7"
+    }, {
+      label: "AWS",
+      value: "6"
+    }, {
+        label: "Jupyter",
+        value: "6"
+    }, {
+        label: "Nextflow",
+        value: "9"
+    }, {
+        label: "R",
+        value: "8"
+    }, {
+        label: "Python",
+        value: "8"
+    }, {
+        label: "Bash",
+        value: "8"
+    }, {
+        label: "JavaScript/React",
+        value: "6"
+    }, {
+        label: "Bioinformatics",
+        value: "8"
+    }, {
+        label: "Statistics",
+        value: "7"
+    }, {
+      label: "Machine Learning",
+      value: "6"
+    }, {
+        label: "Modesty",
+        value: "2"
+    }],
     "portfolio":[
       {
         "name":"nf-core/deepvariant",
