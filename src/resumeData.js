@@ -108,37 +108,44 @@ let resumeData = {
       {
         "name":"Jackson Labs Workshop",
         "description":"Prepared & taught a day long bioinformatics workshop to 45 participants in Jackson Labs in the US",
-        "imgurl":"images/portfolio/jax-workshop.jpg"
+        "imgurl":"images/portfolio/jax-workshop.jpg",
+        "link":"https://github.com/lifebit-ai/jax-tutorial"
       },
       {
         "name":"RShiny Drug Repurposing App",
         "description":"Built an RShiny application to demo to AstraZeneca for a drug repurposing pilot",  
-        "imgurl":"images/portfolio/az-dr-rshiny-app.png"
+        "imgurl":"images/portfolio/az-dr-rshiny-app.png",
+        "link":"https://philpalmer.shinyapps.io/drug_repurposing/"
       },
       {
         "name":"Pharmacogenomics pipeline",
         "description":"Pharmacogenomics Nextflow pipeline for the BHKLAB to process the GRAY 2017 dataset",
-        "imgurl":"https://avatars3.githubusercontent.com/u/12865570?s=280&v=4"
+        "imgurl":"https://avatars3.githubusercontent.com/u/12865570?s=280&v=4",
+        "link":"https://github.com/lifebit-ai/pgx-nf/"
       },
       {
         "name":"Long reads variant calling pipeline",
         "description":"Nextflow pipeline for mapping, calling germline & structural variance of Oxford Nanopore reads",
-        "imgurl":"images/portfolio/ont.png"
+        "imgurl":"images/portfolio/ont.png",
+        "link":"https://github.com/lifebit-ai/long-reads/"
       },
       {
         "name":"ECW Converter",
         "description":"Dockerised python scripts & Nextflow pipeline for converting the file format of aerial images, developed for the United Nations Department of Statistics",
-        "imgurl":"https://opendatawatch.com/wp-content/uploads/2018/09/UNstats-logo.png"
+        "imgurl":"https://opendatawatch.com/wp-content/uploads/2018/09/UNstats-logo.png",
+        "link":"https://github.com/lifebit-ai/ecw-converter"
       },
       {
         "name":"Illumina's Dragen pipeline",
         "description":"Nextflow pipeline for running Illumina's Dragen pipeline including indexing, mapping, germline/somatic variant calling & CNV analysis",
-        "imgurl":"https://d7umqicpi7263.cloudfront.net/img/product/a66b9373-89f0-4e38-94c2-c5f498b07cdc/a44af422-3ea8-450d-b420-a3093981f514.png"
+        "imgurl":"https://d7umqicpi7263.cloudfront.net/img/product/a66b9373-89f0-4e38-94c2-c5f498b07cdc/a44af422-3ea8-450d-b420-a3093981f514.png",
+        "link":"https://github.com/lifebit-ai/dragen"
       },
       {
         "name":"Thesis",
         "description":"Differences in Telomere Length Predicted from the Exome Data of Bladder Cancer and Matched Control Tissue Samples",
-        "imgurl":"images/portfolio/igv.png"
+        "imgurl":"images/portfolio/igv.png",
+        "link":"https://www.dropbox.com/s/9p296tdq5axkakt/dissertation.pdf?dl=0"
       }
     ]
   }
