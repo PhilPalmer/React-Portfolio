@@ -62,41 +62,38 @@ let resumeData = {
     ],
     "skillsDescription":"Some of my skills include:",
     "skills":[{
+      label: "AWS",
+      value: "6"
+    }, {
+      label: "Bash",
+      value: "8"
+    }, {
+      label: "Bioinformatics",
+      value: "8"
+    }, {
       label: "Docker",
       value: "7"
     }, {
-      label: "AWS",
+      label: "JavaScript/React",
       value: "6"
     }, {
         label: "Jupyter",
         value: "6"
     }, {
+      label: "Machine Learning",
+      value: "6"
+    }, {
         label: "Nextflow",
         value: "9"
-    }, {
-        label: "R",
-        value: "8"
     }, {
         label: "Python",
         value: "8"
     }, {
-        label: "Bash",
-        value: "8"
-    }, {
-        label: "JavaScript/React",
-        value: "6"
-    }, {
-        label: "Bioinformatics",
-        value: "8"
+      label: "R",
+      value: "8"
     }, {
         label: "Statistics",
         value: "7"
-    }, {
-      label: "Machine Learning",
-      value: "6"
-    }, {
-        label: "Modesty",
-        value: "2"
     }],
     "portfolio":[
       {
