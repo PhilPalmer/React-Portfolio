@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"https://philpalmer.github.io",
+    "imagebaseurl":"https://philpalmer.github.io/portfolio",
     "name": "Phil Palmer",
     "role": "Bioinformatician",
     "email": "phil.palmer.email@gmail.com",
@@ -25,7 +25,6 @@ let resumeData = {
         }
       ],
     "aboutme":"I am currently working at the biotech start-up Lifebit. Prior to this I graduated from the University of Southampton with a first class degree in Biology.",
-    // "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"London",
     "website":"https://philpalmer.github.io/portfolio/",
     "education":[
@@ -34,20 +33,34 @@ let resumeData = {
         "specialization":"BSc Biology",
         "grade":"First Class Honours",
         "MonthOfPassing":"July",
+        "MonthOfStarting":"",
+        "YearOfStarting":"2015",
+        "MonthOfPassing":"",
         "YearOfPassing":"2018",
-        "Achievements":"First Class Honours.\nThesis: Differences in Telomere Length Predicted from the Exome Data of Bladder Cancer and Matched Control Tissue Samples 86%\nNotable modules include:\nBIOL3063 Bioinformatics & Systems Biology 81%\nBIOL2008 Quantitative Methods in Biological & Environmental Science 72%\nBIOL1005 Cell Biology & Genetics 70%"
+        "Achievements": `Thesis: Differences in Telomere Length Predicted from the Exome Data of Bladder Cancer and Matched Control Tissue Samples 86%<br />
+        Notable modules include:<br />
+        <ul>
+          <li>BIOL3063 Bioinformatics & Systems Biology 81%</li>
+          <li>BIOL2008 Quantitative Methods in Biological & Environmental Science 72%</li>
+          <li>BIOL1005 Cell Biology & Genetics 70%</li>
+        </ul>
+        `
       },
       {
         "UniversityName":"Caterham School",
         "specialization":"A-levels",
-        "MonthOfPassing":"June",
+        "MonthOfStarting":"",
+        "YearOfStarting":"2013",
+        "MonthOfPassing":"",
         "YearOfPassing":"2015",
         "Achievements":"Biology B, Business Studies B, Physics C, Mathematics (AS-level) B"
       },
       {
         "UniversityName":"Caterham School",
         "specialization":"IGCSEs",
-        "MonthOfPassing":"June",
+        "MonthOfStarting":"",
+        "YearOfStarting":"2008",
+        "MonthOfPassing":"",
         "YearOfPassing":"2013",
         "Achievements":"10 IGCSEs A*-B Including Mathematics and English"
       }
@@ -56,7 +69,9 @@ let resumeData = {
       {
         "CompanyName":"Lifebit",
         "specialization":"Bioinformatician",
-        "MonthOfLeaving":"-",
+        "MonthOfStarting":"July",
+        "YearOfStarting":"2018",
+        "MonthOfLeaving":"",
         "YearOfLeaving":"Present",
         "Achievements":"Developing, maintaining & documenting bioinformatics pipelines on the Deploit platform. Have developed Docker & Nextflow pipelines on everything from variant calling to long reads to transcriptomics. For example, adapted a pipeline based on Google’s DeepVariant pipeline to meet the requirements of the open-source community nf-core. Also, regularly interact with clients & have been instrumental in the delivery of numerous key projects."
       }
