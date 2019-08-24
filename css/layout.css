@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/dna-header-background.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -49,7 +49,7 @@ header:before {
 }
 header .banner {
    display: inline-block;
-   vertical-align: middle;
+   vertical-align: text-bottom;
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;s
@@ -86,7 +86,7 @@ header .banner-text hr {
 header .social {
    margin: 24px 0;
    padding: 0;
-   font-size: 30px;
+   font-size: 40px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
