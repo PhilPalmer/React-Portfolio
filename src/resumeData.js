@@ -2,6 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://philpalmer.github.io",
     "name": "Phil Palmer",
     "role": "Bioinformatician",
+    "email": "phil.palmer.email@gmail.com",
     "linkedinId":"phil-palmer",
     "skypeid": "phil_palmer_",
     "roleDescription": "I am a bioinformatician who wants to use my career to do as much good as possible.",
