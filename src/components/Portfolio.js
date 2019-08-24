@@ -19,6 +19,15 @@ export default class Porfolio extends Component {
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
+                          <ul>
+                          {
+                            item.tags && item.tags.map((tag)=>{
+                              return(
+                                <li>{tag}</li>
+                              );
+                            })
+                          }
+                          </ul>
                         </div>
                       </div>
                   </div>

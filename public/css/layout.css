@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #3BD3F8; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -525,6 +525,16 @@ ul#nav li.current a { color: #F06000; }
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
+}
+.portfolio-item .portfolio-item-meta li {
+   font: 10px/16px 'opensans-light', sans-serif;
+   color: #4e4e4e;
+   margin-bottom: 0;
+   display: inline-block;
+
+   border-radius: 100px;
+   background: #fff;
+   padding: 8px; 
 }
 
 /* on hover */
