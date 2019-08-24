@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://philpalmer.github.io/",
+  "homepage": "https://philpalmer.github.io/portfolio/",
   "dependencies": {
     "fusioncharts": "^3.14.0",
     "gh-pages": "^2.1.1",
