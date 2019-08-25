@@ -167,6 +167,62 @@ let resumeData = {
         "imgurl":"images/portfolio/igv.png",
         "link":"https://www.dropbox.com/s/9p296tdq5axkakt/dissertation.pdf?dl=0",
         "tags": ["Bash", "Dissertation", "Machine learning", "Python", "Statistics", "University of Southampton"]
+      },
+      {
+        "name":"GATK Best Practices",
+        "description":"Nextflow pipelines based on GATK best practices",
+        "imgurl":"https://www.broadinstitute.org/files/images/GATK-logo-final-on-333.png",
+        "link":"https://github.com/lifebit-ai/GATK",
+        "tags": ["Bioinformatics pipeline", "Docker", "GATK", "Nextflow", "Variant Calling"]
+      },
+      {
+        "name":"Metagenomics Research",
+        "description":"Helped in the user researc & interviews for a metagenomics project. Done with Science Practice & funded by an Innovate UK grant",
+        "imgurl":"https://i1.wp.com/blog.lifebit.ai/wp-content/uploads/2019/04/Everyone.png?resize=1024%2C713&ssl=1",
+        "link":"https://blog.lifebit.ai/2019/04/23/ux-ui-designer-insights-for-creating-a-user-friendly-clinical-gut-microbiome-ai-based-analysis-platform/",
+        "tags": ["Metagenomics", "Research", "User interviews"]
+      },
+      {
+        "name":"GWAS",
+        "description":"Nextflow pipeline for Genome Wide Association Studies (GWAS), Phenotypic GWAS (Phewas), Family-based GWAS & UK Biobank Scanner",
+        "imgurl":"https://3.bp.blogspot.com/-IwFhdadUevM/TbXRJAQ62gI/AAAAAAAALp8/y8qDbY-jmC8/s1600/2011-04-19+GGD+manhattan1.png",
+        "link":"https://github.com/lifebit-ai/h3agwas",
+        "tags": ["Bioinformatics pipeline", "Docker", "GWAS", "Nextflow"]
+      },
+      {
+        "name":"Clean meat hackathon",
+        "description":"Was on the winning team of the world's first clean meat hackathon",
+        "imgurl":"https://media.licdn.com/dms/image/C4E22AQGWr36JnYnMfA/feedshare-shrink_8192/0?e=1569456000&v=beta&t=u5cYZu4PWY_1WrB_I853XozpEvunqj_tHvPeR-eRjC8",
+        "link":"https://www.linkedin.com/feed/update/urn:li:activity:6542091105389944832/",
+        "tags": ["Clean meat", "Hackathon", "Machine learning"]
+      },
+      {
+        "name":"Imputation & Ancestry",
+        "description":"Improved/benchmarked imputation pipeline, added input validation with 23AndMe validator RScript, built imputation RShiny app & ancestry pipeline",
+        "imgurl":"https://i0.wp.com/blog.lifebit.ai/wp-content/uploads/2019/05/imputation_plot.png?fit=1188%2C653&ssl=1",
+        "link":"https://github.com/lifebit-ai/common-latest-geno",
+        "tags": ["Bioinformatics pipeline", "Docker", "Imputation", "Nextflow", "R", "RShiny"]
+      },
+      {
+        "name":"FlowCraft",
+        "description":"Contributed components to the open source project FlowCraft which allows users to build Nextflow pipelines with one command",
+        "imgurl":"https://avatars0.githubusercontent.com/u/38907429?s=400&v=4",
+        "link":"https://github.com/assemblerflow/flowcraft",
+        "tags": ["Bioinformatics pipeline builder", "Docker", "Nextflow"]
+      },
+      {
+        "name":"RNASeq",
+        "description":"Differential gene expression using DESeq2 & Plant RNASeq Nextflow pipelines",
+        "imgurl":"images/portfolio/salmon_multiqc.png",
+        "link":"",
+        "tags": ["Bioinformatics pipeline", "Docker", "Nextflow", "R", "RNASeq"]
+      },
+      {
+        "name":"Pangenome",
+        "description":"Pan-genomics Nextflow pipeline for annotating prokaryotic genomes & calculating the pan genome",
+        "imgurl":"http://sanger-pathogens.github.io/Roary/images/pangenome_matrix.png",
+        "link":"https://github.com/lifebit-ai/roary",
+        "tags": ["Bioinformatics pipeline", "Docker", "Metagenomics", "Nextflow", "Pangenome"]
       }
     ]
   }
