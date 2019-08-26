@@ -149,7 +149,7 @@ let resumeData = {
       },
       {
         "name":"ECW Converter",
-        "description":"<a href='https://github.com/lifebit-ai/ecw-converter/tree/master/ecw_converter' target='_blank'>Dockerised python scripts & Nextflow pipeline</a> for converting the file format of aerial images, developed for the United Nations Department of Statistics",
+        "description":"<a href='https://github.com/lifebit-ai/ecw-converter/' target='_blank'>Dockerised python scripts & Nextflow pipeline</a> for converting the file format of aerial images, developed for the United Nations Department of Statistics",
         "imgurl":"https://opendatawatch.com/wp-content/uploads/2018/09/UNstats-logo.png",
         "link":"https://github.com/lifebit-ai/ecw-converter",
         "tags": ["Data Science", "Docker", "Nextflow", "Python", "United Nations"]
