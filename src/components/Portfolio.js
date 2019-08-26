@@ -41,7 +41,7 @@ export default class Porfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+                          <p id="project-description" dangerouslySetInnerHTML={{ __html: item.description }}></p>
                           <ul>
                           {
                             item.tags && item.tags.map((tag)=>{

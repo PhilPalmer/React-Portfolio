@@ -526,6 +526,13 @@ ul#nav li.current a { color: #F06000; }
    color: #c6c7c7;
    margin-bottom: 0;
 }
+#project-description a {
+   font-weight: 900;
+}
+#project-description a:hover {
+   /* color: #11ABB0; */
+   color: #fff;
+}
 .portfolio-item .portfolio-item-meta li {
    font: 10px/16px 'opensans-light', sans-serif;
    color: #4e4e4e;
