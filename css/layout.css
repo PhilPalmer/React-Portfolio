@@ -526,6 +526,20 @@ ul#nav li.current a { color: #F06000; }
    color: #c6c7c7;
    margin-bottom: 0;
 }
+.portfolio-item .portfolio-item-meta li {
+   font: 10px/16px 'opensans-light', sans-serif;
+   color: #4e4e4e;
+   margin-bottom: 0;
+   display: inline-block;
+
+   border-radius: 100px;
+   background: #fff;
+   padding: 8px; 
+}
+
+#portfolio-btn {
+   text-align: center;
+}
 
 /* on hover */
 .portfolio-item:hover .overlay {
