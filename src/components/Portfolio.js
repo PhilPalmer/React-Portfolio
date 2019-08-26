@@ -1,7 +1,30 @@
 import React, { Component } from 'react';
 export default class Porfolio extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      portfolio: this.props.resumeData.portfolio,
+      showAllProjects: false
+    }
+    this.handleAddClick = this.handleAddClick.bind(this)
+    this.handleRemoveClick = this.handleRemoveClick.bind(this)
+  }
+
+  handleAddClick() {
+    // update the state object
+    this.state.portfolio.push(...this.props.resumeData.moreProjects)
+    // set the state
+    this.setState({ portfolio : this.state.portfolio, showAllProjects: !this.state.showAllProjects });
+  }
+
+  handleRemoveClick() {
+    // update the state object
+    const shortPortfolio = this.state.portfolio.filter(( el ) => !this.props.resumeData.moreProjects.includes( el ));
+    // set the state
+    this.setState({ portfolio : shortPortfolio, showAllProjects: !this.state.showAllProjects });
+  }
+
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
       <div id="projects" className="row">
@@ -9,7 +32,7 @@ export default class Porfolio extends Component {
           <h1>Check Out Some of My Projects.</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            this.state.portfolio && this.state.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
                 <a href={`${item.link}`} target="_blank">
@@ -23,7 +46,7 @@ export default class Porfolio extends Component {
                           {
                             item.tags && item.tags.map((tag)=>{
                               return(
-                                <li>{tag}</li>
+                                <li key={tag}>{tag}</li>
                               );
                             })
                           }
@@ -36,6 +59,11 @@ export default class Porfolio extends Component {
               )
             })
           }
+          </div>
+          <div id="portfolio-btn">
+          { this.state.showAllProjects
+            ? <input type="submit" value="Show fewer projects" id="portfolio-btn" onClick={this.handleRemoveClick} />
+            : <input type="submit" value="Show more projects" id="portfolio-btn" onClick={this.handleAddClick} /> }
           </div>
         </div>
       </div>

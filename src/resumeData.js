@@ -167,7 +167,9 @@ let resumeData = {
         "imgurl":"images/portfolio/igv.png",
         "link":"https://www.dropbox.com/s/9p296tdq5axkakt/dissertation.pdf?dl=0",
         "tags": ["Bash", "Dissertation", "Machine learning", "Python", "Statistics", "University of Southampton"]
-      },
+      }
+    ],
+    "moreProjects":[
       {
         "name":"GATK Best Practices",
         "description":"Nextflow pipelines based on GATK best practices",
