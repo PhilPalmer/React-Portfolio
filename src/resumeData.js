@@ -214,9 +214,9 @@ let resumeData = {
       },
       {
         "name":"RNASeq",
-        "description":"Differential gene expression using <a href='https://github.com/PhilPalmer/RNASeq-nf-dseq2' target='_blank'>DESeq2</a> & <a href='https://github.com/lifebit-ai/Plant-RNASeq' target='_blank'>Plant RNASeq</a> Nextflow pipelines",
-        "imgurl":"images/portfolio/salmon_multiqc.png",
-        "link":"https://github.com/PhilPalmer/RNASeq-nf-dseq2",
+        "description":"Differential gene expression pipelines using DESeq2 with <a href='https://github.com/PhilPalmer/RNASeq-nf-dseq2' target='_blank'>Salmon</a> & <a href='https://github.com/lifebit-ai/dean' target='_blank'>STAR</a> aligners. As well as a <a href='https://github.com/lifebit-ai/Plant-RNASeq' target='_blank'>Plant RNASeq</a> Nextflow pipeline",
+        "imgurl":"images/portfolio/volcano_plot.png",
+        "link":"https://github.com/lifebit-ai/dean",
         "tags": ["Bioinformatics pipeline", "Docker", "Nextflow", "R", "RNASeq"]
       },
       {
