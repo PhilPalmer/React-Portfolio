@@ -519,7 +519,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 16px/24px 'opensans-bold', sans-serif;
+   font: 18px/26px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
@@ -535,7 +535,7 @@ ul#nav li.current a { color: #F06000; }
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta li {
-   font: 10px/16px 'opensans-light', sans-serif;
+   font: 12px/16px 'opensans-light', sans-serif;
    color: #4e4e4e;
    margin-bottom: 0;
    display: inline-block;
