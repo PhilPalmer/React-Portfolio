@@ -434,7 +434,8 @@ ul#nav li.current a { color: #F06000; }
    color: #95A3A3;
 }
 #portfolio p {
-   font-size: 1.5rem;
+   font-size: 1.6rem;
+   font-weight: 900;
 }
 
 /* Portfolio Content */
@@ -518,7 +519,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 16px/24px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
