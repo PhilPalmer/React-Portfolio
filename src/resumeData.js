@@ -134,6 +134,13 @@ let resumeData = {
         "tags": ["AstraZeneca", "Drug Repurposing", "Web development", "R", "RShiny"]
       },
       {
+        "name":"Thesis",
+        "description":"<a href='https://www.dropbox.com/s/9p296tdq5axkakt/dissertation.pdf?dl=0' target='_blank'>Dissertation</a> which I achieved 86% in: Differences in Telomere Length Predicted from the Exome Data of Bladder Cancer and Matched Control Tissue Samples",
+        "imgurl":"images/portfolio/thesis.png",
+        "link":"https://www.dropbox.com/s/9p296tdq5axkakt/dissertation.pdf?dl=0",
+        "tags": ["Bash", "Dissertation", "Machine learning", "Python", "Statistics", "University of Southampton"]
+      },
+      {
         "name":"Pharmacogenomics pipeline",
         "description":"Pharmacogenomics Nextflow pipeline for the BHKLAB to process the GRAY <a href='https://github.com/lifebit-ai/GRAY' target='_blank'>2013</a> & <a href='https://github.com/lifebit-ai/pgx-nf/' target='_blank'>2017</a> dataset",
         "imgurl":"https://avatars3.githubusercontent.com/u/12865570?s=280&v=4",
@@ -160,13 +167,6 @@ let resumeData = {
         "imgurl":"https://d7umqicpi7263.cloudfront.net/img/product/a66b9373-89f0-4e38-94c2-c5f498b07cdc/a44af422-3ea8-450d-b420-a3093981f514.png",
         "link":"https://github.com/lifebit-ai/dragen",
         "tags": ["Bioinformatics pipeline", "CNV", "Dragen", "Illumina", "Nextflow", "Variant Calling"]
-      },
-      {
-        "name":"Thesis",
-        "description":"<a href='https://www.dropbox.com/s/9p296tdq5axkakt/dissertation.pdf?dl=0' target='_blank'>Dissertation</a> which I achieved 86% in: Differences in Telomere Length Predicted from the Exome Data of Bladder Cancer and Matched Control Tissue Samples",
-        "imgurl":"images/portfolio/igv.png",
-        "link":"https://www.dropbox.com/s/9p296tdq5axkakt/dissertation.pdf?dl=0",
-        "tags": ["Bash", "Dissertation", "Machine learning", "Python", "Statistics", "University of Southampton"]
       }
     ],
     "moreProjects":[

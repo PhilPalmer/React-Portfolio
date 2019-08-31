@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pdf from '../../src/Dissertation.pdf';
 export default class Porfolio extends Component {
   constructor(props){
     super(props)
@@ -35,6 +36,28 @@ export default class Porfolio extends Component {
             this.state.portfolio && this.state.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
+                { item.name == 'Thesis' ?
+                  <a href={Pdf} target="_blank">
+                  <div className="item-wrap">       
+                      <img src={`${item.imgurl}`} className="item-img"/>
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>{item.name}</h5>
+                          <p id="project-description" dangerouslySetInnerHTML={{ __html: item.description }}></p>
+                          <ul>
+                          {
+                            item.tags && item.tags.map((tag)=>{
+                              return(
+                                <li key={tag}>{tag}</li>
+                              );
+                            })
+                          }
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                  </a>
+                :
                 <a href={`${item.link}`} target="_blank">
                   <div className="item-wrap">       
                       <img src={`${item.imgurl}`} className="item-img"/>
@@ -55,6 +78,7 @@ export default class Porfolio extends Component {
                       </div>
                   </div>
                   </a>
+                }
                 </div>
               )
             })
